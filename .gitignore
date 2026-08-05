@@ -1,0 +1,70 @@
+﻿# ===== VSCode =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.vssscc
+*.vspscc
+
+# ===== Visual Studio Copilot & search indices =====
+# (these live under .vs/ but calling out explicitly in case path changes)
+CopilotIndices/
+FileContentIndex/
+
+# ===== PowerShell =====
+# Module build/output artifacts
+Output/
+Outputs/
+Release/
+bin/
+obj/
+
+# PSScriptAnalyzer / Pester results
+*.NUnit.xml
+TestResults.xml
+TestResults/
+coverage.xml
+
+# PowerShell history & transcripts
+ConsoleHost_history.txt
+*.transcript.txt
+
+# Module packaging temp files (e.g. from Publish-Module staging)
+*.nupkg
+*.nuspec.bak
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Secrets / local config (never commit) =====
+*.env
+secrets.psd1
+local.settings.json
+*.pfx
+*.pem
+*.key
+
+# ===== Editor swap/temp files =====
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ===== Logs =====
+*.log
+logs/
+/Test-Me.ps1
+/.github
